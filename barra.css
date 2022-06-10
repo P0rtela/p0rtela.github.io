@@ -1,0 +1,82 @@
+@media all {
+header {
+    position: fixed;
+    width: 13%;
+    height: 100%;
+    background-color: #14001f;
+    overflow: hidden;
+    transition: 300ms;
+}
+#pagina {
+    color:#a4f;
+}
+
+header li {
+    transition: 300ms;
+}
+
+header li:hover {
+    cursor: pointer;
+    color: #cf8cff;
+    background-color: rgba(255, 255, 255, .03);
+}
+
+#perfil>img {
+    width: 100%;
+}
+
+#perfil {
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+header ul {
+    display: inline;
+    list-style-type: none;
+}
+
+header:hover {
+    overflow: scroll;
+}
+
+}
+
+@media screen and (min-width: 1450px) {
+
+#perfil {
+    width: 60px;
+    height: 60px;
+}
+
+header ul {
+    padding-left: 40px;
+    font-size: 1.1rem;
+}
+
+header li {
+    padding: 13px 15px;
+}
+header {
+    padding: 20px 25px;
+}
+}
+
+@media screen and (max-width: 1450px) {
+
+    #perfil {
+        width: 45px;
+        height: 45px;
+    }
+    
+    header ul {
+        padding-left: 40px;
+        font-size: 0.9rem;
+    }
+    
+    header li {
+        padding: 13px 15px;
+    }
+    header {
+        padding: 15px 20px;
+    }
+}

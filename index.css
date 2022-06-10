@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #203;
+    margin: 0;
+    color: #ebe4f0;
+}
+
+.site {
+    width: 80%;
+    float: right;
+    margin: 2%;
+}
+
+::-webkit-scrollbar { 
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #190026;
+    border: 2px solid #2d0045;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #2d0045;
+    padding: 30px;
+}
