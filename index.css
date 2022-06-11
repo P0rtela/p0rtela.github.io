@@ -31,12 +31,11 @@ body {
 .aba {
     width: 480px;
     height: 400px;
-    background-color: #0c0;
     margin-bottom: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-	flex-direction: column;
+    lex-direction: column;
     overflow: hidden;
 }
 
@@ -52,7 +51,7 @@ body {
 .aba .titulo {
     background-color: rgba(0,0,0,.7);
     width: 100%;
-	align-self: flex-start;
+    align-self: flex-start;
     font-size: 2.65em;
     padding-left: 40px;
     padding-top: 10px;
