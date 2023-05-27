@@ -42,7 +42,9 @@ body {
 }
 
 .aba img{
-    max-width: 145%;
+    width: 700px;
+    height: 410px;
+    object-fit: cover;
     position: relative;
     z-index: 0;
     transition: 400ms;
@@ -70,7 +72,6 @@ body {
 
 .aba:hover .titulo{
     position: relative;
-    top: -118px;
     cursor: pointer;
     color: #cf8cff;
 }
@@ -78,7 +79,5 @@ body {
 .aba:hover img{
     cursor: pointer;
     filter:contrast(1.2) brightness(.8);
-    max-width: 165%;
-}
-
+    transform: scale(1.1);
 }
